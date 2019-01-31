@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page_5</title>
+</head>
+<body>
+<h2>표(table) 태그 연습 페이지</h2>
+<h4>table 태그는 내용의 규칙적인 배치를 위해 주로 사용됨.</h4>
+<table>
+<!-- tr(table row) : 줄(행:row)을 표현하는 태그임 -->
+<!-- td(table division) : 한 칸을 뜻하는 태그임 / 
+th(table headline) : 제목행 표시용 칸 -->
+<tr>한줄</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

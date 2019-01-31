@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page_3</title>
+</head>
+<body>
+<div id="header">
+<h1>목록 관련 태그 연습</h1>
+<h3>목록 태그는 ol(order list : 순번있는 목록)과 ul(unorder list : 순번없는 목록) 과
+di(define list : 정의목록)이 있음.</h3>
+</div>
+<hr>
+<div id="section1">
+<h4>순번이 매겨지는 목록 : OL 태그</h4>
+<!-- 속성 : type-"1/A/a/l/i" 순번 표시 유형 지정 -->
+<ol type="1">
+	<li>자바</li> 
+	<!-- li : list 의 줄임말, 목록 하나를 표시함 -->
+	<li>오라클</li>
+	<li>JDBC</li>
+	<li>HTML5</li>
+	<li>CSS3</li>
+</ol>
+</div>
+<div id="section2"></div>
+<div id="section3"></div>
+<hr>
+<div id="footer">
+<center>
+<font color="gray" size="2">
+copyright@kh.org 2019-01-31 태그 연습 페이지 제작<br>
+tel : 02-1234-1234 fax : 02-3333-4444
+</font><br>
+</center>
+</div>
+</body>
+</html>

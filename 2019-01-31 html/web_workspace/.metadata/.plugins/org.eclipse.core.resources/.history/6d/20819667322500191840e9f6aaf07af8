@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page_3</title>
+</head>
+<body>
+<div id="header">
+<h1>목록 관련 태그 연습</h1>
+</div>
+<div id="section1"></div>
+<div id="section2"></div>
+<div id="section3"></div>
+<hr>
+<div id="footer">
+<center>
+<font color="gray size="2">
+copyright@kh.org 2019-01-31 태그 연습 페이지 제작
+tel : 02-1234-1234 fax : 02-3333-4444
+</font><br>
+</center>
+</div>
+</body>
+</html>

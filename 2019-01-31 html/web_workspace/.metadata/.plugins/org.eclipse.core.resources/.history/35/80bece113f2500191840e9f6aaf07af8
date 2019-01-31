@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>welcome!</title>
+</head>
+<body><ol>
+</ol>
+<h1>html test application</h1>
+<ul>
+	<li><a href="views/page_1.html">글자관련태그연습</a></li>
+	<li><a href="views/page_2.html">문서 배치관련 태그연습</a></li>
+	<li><a href="views/page_3.html">목록관련 태그연습</a></li>
+	<li><a href="views/page_4.html">링크관련 태그연습</a></li>
+	<li><a href="views/page_4.html">표 태그 연습</a></li>
+	<li><a href="views/page_4.html">링크관련 태그연습</a></li>
+	<li><a href="views/page_4.html">링크관련 태그연습</a></li>
+	<li><a href="views/page_4.html">링크관련 태그연습</a></li>
+</ul>
+</ul>
+</body>
+</html>
