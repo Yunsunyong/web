@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>testorderform</title>
+</head>
+<body>
+<form action="">
+<p><lebal>고객명 : <input type="text" name="cname"></label></p>
+<p>전화 번호 : <input type="tel" name="cphone"></lebal></p>
+<p>E-mail : <input type="email" name="cemail"></lebal></p>
+<fieldset>
+<legend>피자 사이즈</legend>
+	<p><input type="radio" name="size" value="s">Smail</p>
+	<p><input type="radio" name="size" value="m">Medium</p>
+	<p><input type="radio" name="size" value="l">Large</p>
+</fieldset>
+<fieldset>
+<legend>토핑 선택</legend>
+	<p><input type="checkbox" name="topping" value="bacon">베이컨</p>
+	<p><input type="checkbox" name="topping" value="chees">치즈</p>
+	<p><input type="checkbox" name="topping" value="onion">양파</p>
+	<p><input type="checkbox" name="topping" value="mushroom">버섯</p>
+</fieldset>
+<p><label>희망배송시간 :</label> <input type="time" min="10:00" max="22:00" step="900"></p>
+<p><label>배송시요청사항:</label>
+<textarea name="comment" maxlength="1000" rows="3" cols="40"></textarea></p>
+</form>
+<p><input type="submit" value="주문하기"></p>
+</body>
+</html>
