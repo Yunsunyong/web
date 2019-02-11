@@ -1,0 +1,100 @@
+/* sample_2.css => testCss3_2.html 적용*/
+
+@charset "UTF-8";
+
+.grad1 {
+	position: relative; /* 태그의 위치지정 방식 설정 */
+	width: 150px;
+	height: 150px;
+	background: #06f; /* #0066ff == #06f */
+	background: -webkit-gradient(linear, left top, left bottom, from(#06f), to(#fff));
+	background: -moz-linear-gradient(top, #06f, #fff);
+}
+.grad2 {
+	position: relative; /* 태그의 위치지정 방식 설정 */
+	width: 150px;
+	height: 150px;
+	background: #06f; /* #0066ff == #06f */
+	background: -webkit-gradient(linear, left bottom, left top, from(#06f), to(#fff));
+	background: -moz-linear-gradient(top, #06f, #fff);
+}
+
+.grad3 {
+	position: relative; /* 태그의 위치지정 방식 설정 */
+	width: 150px;
+	height: 150px;
+	background: #06f; /* #0066ff == #06f */
+	background: -webkit-gradient(radial, center center, 10, center center, 90, from(blue), to(#fff), color-stop(70%, pink));
+	background: -moz-radial-gradient(circle,blue,pink,#fff);
+}
+
+.grad4 {
+	position: relative; /* 태그의 위치지정 방식 설정 */
+	width: 150px;
+	height: 150px;
+	background: #06f; /* #0066ff == #06f */
+	background: -webkit-gradient(radial, center center, 10, center center, 90, from(blue), to(#fff), color-stop(70%, pink));
+	background: -moz-radial-gradient(ellipse closest-side,green,pink 10%,#fff 50%, white);
+}
+
+#bg1 {
+	width: 150px;
+	height: 200px;
+	border: 1px solid #000;
+	background: url("../images/ph2.jpg");
+	background-size: 50% 50%;
+	-moz-background-size: 50% 50%;
+	-webkit-background-size: 50% 50%;
+}
+
+#bg2 {
+	width: 150px;
+	height: 200px;
+	border: 1px solid #000;
+	background: url("../images/ph2.jpg");
+	background-size: 100px 50px;
+	-moz-background-size: 100px 50px;
+	-webkit-background-size: 100px 50px;
+}
+
+.opa1, .opa2 {
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background: url(/testcc/resources/images/ph3_s.jpg);
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	margin: 5px;
+}
+
+#noopa{
+	color: #fd0;
+	background: #fff;	
+}
+
+#yesopa {
+	color: #f00;
+	background: #fff;
+	opacity: 0.3;
+}
+
+#rgba {
+	color: #f00;
+	background: rgba(255,255,255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

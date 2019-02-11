@@ -1,0 +1,55 @@
+/* sample_3.css => testCss3_3.html 에 적용 */
+
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; }
+
+div.myphoto1 {
+	position: relative;
+	left: 25px;
+	top: 25px;
+	width: 150px;
+	height: 110px;
+	padding: 10px;
+	background: #cbcb96;
+	box-shadow: 3px 3px 5px rgba(0,0,0, 0.5);
+	/* 원래 상태로 되돌아올 때의 애니메이션 설정임 */
+	transition: all 3s linear;
+	-webkit-transition: all 3s linear;
+	-moz-transition: all 3s linear;
+	-o-transition: all 3s linear;
+	-ms-transition: all 3s linear;
+}
+
+div.myphoto1:hover {
+	/* transform: scale(99999deg);
+	-webkit-transform: scale(99999deg);
+	-moz-transform: scale(99999deg);
+	-o-transform: scale(99999deg);
+	-ms-transform: scale(99999deg); */
+	/* transform: scale(2, 2);
+	-webkit-transform: scale(2, 2);
+	-moz-transform: scale(2, 2);
+	-o-transform: scale(2, 2);
+	-ms-transform: scale(2, 2); */
+	/* transform: skew(80deg, 80deg);
+	-webkit-transform: skew(80deg, 80deg);
+	-moz-transform: skew(80deg, 80deg);
+	-o-transform: skew(80deg, 80deg);
+	-ms-transform: skew(80deg, 80deg); */
+	transform: translate(350px, 400px);
+	-webkit-transform: translate(350px, 400px);
+	-moz-transform: translate(350px, 400px);
+	-o-transform: translate(350px, 400px);
+	-ms-transform: translate(350px, 400px);
+	/* 마우스 대었을 때 transition 을 다르게 설정하려면 */
+	transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+}
+
+
+
+
