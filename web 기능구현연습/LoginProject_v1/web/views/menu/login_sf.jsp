@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <%@ page import="java.sql.*" %>
 <!DOCTYPE html>
 <html>
@@ -24,7 +24,8 @@
 			out.println("<script> location.href='/login/index.jsp'; </script>");
 		}else{
 			out.println("<script> alert('로그인실패!'); </script>");
-			out.println("<script> location.href='login.jsp'; </script>");
+			/* out.println("<script> location.href='login.jsp'; </script>"); */
+			out.println("<script> history.go(-1); </script>");
 		}
 		conn.close();
 		stmt.close();
