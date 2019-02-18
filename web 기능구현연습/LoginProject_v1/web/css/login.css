@@ -25,6 +25,12 @@ body {
 	border-radius: 10px;
 }
 
+#a1 {
+	position: fixed;
+	left: 100px;
+	top: 200px;
+}
+
 #userId {
 	position: fixed;
 	left:650px;

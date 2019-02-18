@@ -14,6 +14,5 @@
 	<input type="password" id="pwd" name="pwd" placeholder="비밀번호" maxlength="16"><br>
 	<input type="submit" id="b_login" value="로그인">
 </form>
-
 </body>
 </html>

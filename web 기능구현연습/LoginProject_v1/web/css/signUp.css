@@ -1,0 +1,53 @@
+/* signUp.css => signUp.jsp 에 적용*/
+
+@charset "UTF-8";
+
+#hd1 {
+	line-height: 66px;
+	margin: 0 auto;
+	text-size: 15pt;
+	font-weight: bold;
+	width: 700px;
+	border-bottom: 5px solid black;
+}
+
+#tb1 {
+	line-height: 66px;
+	margin: 0 auto;
+	width: 700px;
+	border: 1px none black;
+	cellpadding: 5px;
+	cellspacing: 1px;
+	background-color: #ccc;
+}
+
+#t1 {
+	text-align: right;
+	background-color: "#f4f4f4";
+}
+
+#red {
+	color: red;
+}
+
+#d1 {
+	text-align: center;
+	margin: 20px 0 0;
+	padding: 30px;
+	border-bottom:1px solid #ececec;
+}
+#d1 a {
+	display: block;
+	width:234px;
+	height:64px;
+	line-height: 66px;
+	margin: 0 auto;
+	font-size: 22pt;
+	font-weight: bold;
+	color: #fff;
+	background:#000;
+	border: 1px solid #053688;
+	border-radius: 30px;
+	text-decoration:none;
+}
+
