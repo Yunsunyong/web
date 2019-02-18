@@ -3,7 +3,7 @@
 @charset "UTF-8";
 
 body {
-	background-image: url(../resources/math.png);
+	background-image: url(../resources/img/math.png);
 	background-size: 90% 100%;
 }
 
@@ -15,7 +15,7 @@ body {
 	border:1px none;
 	margin: 0 0 0;
 	padding: 30px;
-	background-image:url("../resources/최면2.gif");
+	background-image:url("../resources/img/최면2.gif");
 	background-size: 100% 100%;	
 	float:left;
 }
@@ -27,7 +27,7 @@ body {
 	border:1px none;
 	margin: 0 0 0;
 	padding: 30px;
-	background-image:url("../resources/최면2.gif");
+	background-image:url("../resources/img/최면2.gif");
 	background-size: 100% 100%;	
 	float:left;
 }
@@ -68,7 +68,7 @@ body {
 	text-align: center;
 	font-size: 20pt;
 	border: 1px none;
-	background-image: url(../resources/물방울.png);
+	background-image: url(../resources/img/물방울.png);
 }
 #foot div {
 	line-height: 60px;

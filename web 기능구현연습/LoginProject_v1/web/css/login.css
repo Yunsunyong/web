@@ -10,7 +10,7 @@ h4 {
 }
 
 body {
-	background-image:url("../resources/bono.gif");
+	background-image:url("../resources/img/bono.gif");
 }
 
 #login-form {
@@ -19,7 +19,7 @@ body {
 	top: 180px;
 	width: 300px;
 	height: 200px;
-	background-image:url("../resources/bonobono.jpg");
+	background-image:url("../resources/img/bonobono.jpg");
 	background-size: 100% 100%;
 	border: 1px none black;
 	border-radius: 10px;

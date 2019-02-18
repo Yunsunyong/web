@@ -12,7 +12,7 @@
 		var pwd1 = document.getElementById("pwd1");
 		var pwd2 = document.getElementById("pwd2");
 		//아이디 검사
-		if(!check(/^[a-z][a-z0-9]{3,13}$/,userid,"첫글자는 반드시 영어소문자로, (숫자포함)4~14글자로 입력하세요.")){
+		if(!check(/^[a-z][a-z0-9]{6,13}$/,userid,"첫글자는 반드시 영어소문자로, (숫자포함)6~14글자로 입력하세요.")){
 			return false;
 		}
 		//비밀번호 검사
@@ -73,7 +73,7 @@
 			<td id="t1"><span id="red">*&nbsp;</span><font id="f1">아이디&nbsp;</font>
 			<td bgcolor="#fff">
 				<input type="text" maxlength="14" name="userid" id="userid" autofocus>
-				<font color="orange">(4~14자 숫자,대소문자 포함)</font>
+				<font color="orange">(6~14자 숫자,대소문자 포함)</font>
 		</tr>
 		<tr>
 			<td id="t1"><span id="red">*&nbsp;</span><font id="f1">비밀번호&nbsp;</font>
