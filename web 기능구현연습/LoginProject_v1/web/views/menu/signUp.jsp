@@ -64,7 +64,7 @@
 </head>
 <header id="hd1">회원정보입력</header>
 <body>
-<form action="#" method="post" name="join_form" onsubmit="return validate();">
+<form action="main.jsp" method="post" name="join_form" onsubmit="return validate();">
 	<table id="tb1">
 		<tr>
 			<td colspan="2"><font color="gray"><b>※기본정보</b></font>
@@ -138,12 +138,11 @@
 					<option value="018">018</option>
 					<option value="019">019</option>
 				</select>
-				<input type="tel" maxlength="4" name="phone1" id="phone" size="4">-
-				<input type="tel" maxlength="4" name="phone2" id="phone" size="4">
+				<input type="tel" maxlength="8" name="phone1" id="phone" size="8">				
 			</td>
 		</tr>
 	</table>
-	<input type="submit" value="회원가입">
+	<input type="submit" value="회원가입" ><!-- onclick="location.href='signUpInsert.jsp';" -->
 	<div id="d1">
 		<a href="../../index.jsp">회원가입</a>
 	</div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test JQuery</title>
+<!-- 상대로로 지정한 경우 
+<script type="text/javascript" src="resources/js/jquery-3.3.1.min.js"> -->
+<!-- 절대경로로 지정한 경우
+"/context root명/폴더명/대상파일명.확장자" -->
+<script type="text/javascript" src="/testq/resources/js/jquery-3.3.1.min.js"></script>
+<script>
+	//브라우저에서 문서 읽어들이기기 완료되면...
+	/* window.onload = function(){
+		alert("20190218 월요일 날씨는 흐림!");	
+	}; */
+	/* jQuery */$/* (document).ready */(function(){
+		/* alert("오늘도 화이팅!"); */
+		//jquery method 사용법
+		//jquery("선택자").적용할메소드명([전달인자,....]);
+		//$("선택자").메소드명(작용할 값);
+		//선택자는 css 선택자 그대로 사용할 수 있다.
+		$("*").css("color","red");
+		$("h1").css("background-color", "yellow");
+		$("h1, h3").css("text-shadow", "200px 200px 4px purple");
+	});
+	
+</script>
+</head>
+<body>
+<h1>jQuery test</h1>
+<!-- 기본 선택자 연습 -->
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/test/baseSelector.html">기본선택자 연습</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/select1.html">기본선택자 실습1</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/select2.html">기본선택자 실습2</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/select3.html">기본선택자 실습3</a></h3>
+
+<hr style="clear:left;">
+<!-- filter 선택자와 filter() 메소드 연습 -->
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/test/filterMethod.html">filter() 연습</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/filter1.html">filter 실습1</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/filter2.html">filter 실습2</a></h3>
+<hr style="clear:left;">
+
+<!-- jQuery 메소드 연습  -->
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/test/method.html">method 연습</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/method1.html">메소드 실습1</a></h3>
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/practice/method2.html">메소드 실습2</a></h3>
+<hr style="float:left;">
+
+<!-- 이벤트 처리 -->
+<h3 style="float:left;margin-right:10px;">
+<a href="/testq/views/test/event.html">기본선택자 연습</a></h3>
+
+</body>
+</html>
