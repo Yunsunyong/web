@@ -1,0 +1,31 @@
+/* notice.css => notice.jsp 에 적용 */
+
+@charset "UTF-8";
+
+.header_div {
+	border: 1px solid black;
+	width: 10%;
+	height: 150px;
+	background-image: url("/semi/resources/images/math.jpg");
+	background-size: 100% 100%;
+	float: left;
+}
+
+.menu_div {
+	border: 1px solid black;
+	width: 70%;
+	height: 150px;
+	float:left;
+}
+.table_menu {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+}
+
+.login_div {
+	border: 1px solid black;
+	width: 19%;
+	height: 150px;
+	float:left;
+}
