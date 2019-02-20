@@ -15,15 +15,18 @@
 </head>
 <header>
 	<div class="header_div"></div>
-	<div class="menu_div">
-		<table class="table_menu">
-			<tr>
-				<td>고객센터</td>
-				<th>kh</th>
-			</tr>
-		</table>
+	<nav class="menu_nav">
+		<ul style="list-style:none;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">문제</a></li>
+			<li><a href="#">강의</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+	</nav>
+	<div class="login_div">
+		<input type="text" id="userid" name="userid" >
+		<input>
 	</div>
-	<div class="login_div"></div>
 </header>
 <body>
 		

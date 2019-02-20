@@ -11,12 +11,27 @@
 	float: left;
 }
 
-.menu_div {
+.menu_nav {
 	border: 1px solid black;
 	width: 70%;
 	height: 150px;
 	float:left;
 }
+
+.menu_nav ul li {
+	border: 1px solid black;
+	border-radius: 0px 100px 0px 100px;
+	width: 70px;
+	height: 50px;
+	padding: 25px 15px 10px 40px;
+	background:lightskyblue;
+	float:left;
+}
+
+.menu_nav ul li a {
+	text-decoration: none;
+}
+
 .table_menu {
 	position: fixed;
 	width: 100px;

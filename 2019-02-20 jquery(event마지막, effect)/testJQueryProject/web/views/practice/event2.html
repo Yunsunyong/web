@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>04-1</title>
+<script type="text/javascript" src="/testq/resources/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var ov = $("option").val();
+		$("select[name=number]").on("change", function(event){
+			var ov = $("option:selected").html();
+			if($("option:selected").val()){
+				document.getElementById("selNum").innerHTML += ov +"<br>";
+			}
+		});
+	});
+	
+	$(function(){
+		
+	});
+</script>
+</head>
+<body>
+	<select name="number">
+		<option value="">== 선택 ==</option>
+		<option value="1">1번</option>
+		<option value="2">2번</option>
+		<option value="3">3번</option>
+		<option value="4">4번</option>
+	</select>
+	<br>
+	<span id="selNum"></span>
+</body>
+</html>
