@@ -33,7 +33,7 @@
 			var loginId = $("input:text").val();
 			var loginPwd = $("input:password").val();
 			
-			if(loginId == "" && loginId.length == 0){
+			/* if(loginId == "" && loginId.length == 0){
 				alert("아이디 입력해주세요.");
 				$("input:text").focus();
 				event.preventDefault();
@@ -41,29 +41,56 @@
 				alert("6글자이상 10글자 이하로 입력해주세요.");
 				$("input:text").select();
 				event.preventDefault();
-			}else if(!invalidCharacter(loginId)){
+			}else if(!(invalidCharacter(loginId))){
+				alert("영문자, 숫자, 허용된 기호문자(_, #, *, !) 포함해주세요.");
+				$("input:text").select();
+				event.preventDefault();
+			} */
+			if(loginId == "" && loginId.length == 0){
+				alert("아이디 입력해주세요.");
+				$("input:text").focus();
+				event.preventDefault();
+			}
+			if(!(loginId.length >= 6 && loginId.length <= 10)){
+				alert("6글자이상 10글자 이하로 입력해주세요.");
+				$("input:text").select();
+				event.preventDefault();
+			}
+			if(!invalidCharacter(loginId)){
 				alert("영문자, 숫자, 허용된 기호문자(_, #, *, !) 포함해주세요.");
 				$("input:text").select();
 				event.preventDefault();
 			}
-			
+			if(loginPwd == "" && loginPwd.length == 0){
+				alert("비밀번호를 입력해주세요.");
+				$("input:password").focus();
+				event.preventDefault();
+			}
+			if(!(loginPwd.length >= 6 && loginPwd.length <= 10)){
+				alert("6글자이상 10글자이하로 입력해주세요.");
+				$("input:password").select();
+				event.preventDefault();
+			}
+			if(!(invalidCharacter(loginPwd))){
+				alert("영문자, 숫자, 허용된 기호문자(_, #, *, !) 포함해주세요.");
+				$("input:password").select();
+				event.preventDefault();
+			}
 		});
 		
 	});
 	
 	//실습2 사용함수	
 	
-	
-	
 	function invalidCharacter(value){
 		var invalidChar = true;
 		
 		for(var i = 0; i < value.length; i++){
 			var c = value.charAt(i);
-			if((c >='A' && c <= 'Z') || 
+			if(!((c >='A' && c <= 'Z') || 
 			   (c >= 'a' && c <= 'z') || 
 			   (c >= '0' && c <= '9') || 
-			   (c == '#' || c == '_' || c == '!' || c == '*')){
+			   (c == '#' || c == '_' || c == '!' || c == '*'))){
 				invalidChar = false;
 				break;
 			}
