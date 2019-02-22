@@ -1,0 +1,13 @@
+/* login.css => login.html 에 적용 */
+
+@charset "UTF-8";
+
+#login_div {
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 40%;
+	background-image: url(/semiw/resources/images/lovemath.png);
+	background-size: 100% 100%;
+}
